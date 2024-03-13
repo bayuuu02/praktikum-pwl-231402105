@@ -13,12 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home-bc', function () {
+Route::get('/', function () {
     return view('home');
 });
-Route::get('/beranda', function () {
-    return view('landing');
-});
-Route::get('/halo', function () {
-    return view('product');
-});
+
